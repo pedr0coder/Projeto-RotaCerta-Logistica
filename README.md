@@ -15,7 +15,7 @@ Este projeto é um dashboard operacional de nível corporativo desenvolvido para
 
 ---
 
-## 💡 Arquitetura & Conceitos de Engenharia
+# 💡 Arquitetura & Conceitos de Engenharia
 
 O sistema foi arquitetado seguindo princípios modernos de separação de responsabilidades, escalabilidade e experiência operacional, visando atender cenários reais de gestão logística.
 
@@ -27,13 +27,18 @@ O sistema foi arquitetado seguindo princípios modernos de separação de respon
 
 ---
 
-## 📋 Funcionalidades Principais
+# 📋 Funcionalidades Principais
 
-### 📊 Dashboard Operacional
+## 📊 Dashboard Operacional
+
 Visualização centralizada das viagens em andamento, permitindo acompanhamento rápido da operação logística.
 
-### 🔍 Filtragem Inteligente
+---
+
+## 🔍 Filtragem Inteligente
+
 Sistema de filtragem por status operacional:
+
 - Planejada
 - Em Rota
 - Concluída
@@ -41,24 +46,32 @@ Sistema de filtragem por status operacional:
 
 Além disso, a interface permite ordenação temporal dinâmica das viagens.
 
-### 🚛 Gestão de Viagens
+---
+
+## 🚛 Gestão de Viagens
+
 Fluxo completo para:
+
 - Criação de viagens
 - Atualização de status
 - Conclusão operacional de rotas
 
-### 🛡 Auditoria de Cancelamentos
+---
+
+## 🛡 Auditoria de Cancelamentos
+
 Toda viagem cancelada exige obrigatoriamente:
+
 - Registro de motivo
 - Validação do operador
 - Persistência histórica para rastreabilidade
 
 ---
 
-## 📂 Estrutura do Projeto
+# 📂 Estrutura do Projeto
 
 ```text
-painel-logistico/
+projeto-logistica/
 ├── backend/                     # API REST (.NET + Entity Framework)
 │   ├── Controllers/             # Endpoints da aplicação
 │   ├── Models/                  # Entidades e contratos
@@ -80,7 +93,7 @@ painel-logistico/
 
 ---
 
-## 🚀 Guia de Inicialização
+# 🚀 Guia de Inicialização
 
 <details>
 
@@ -88,7 +101,7 @@ painel-logistico/
 
 ---
 
-## 📋 Pré-requisitos
+# 📋 Pré-requisitos
 
 Antes de iniciar, certifique-se de possuir instalado:
 
@@ -99,33 +112,48 @@ Antes de iniciar, certifique-se de possuir instalado:
 
 ---
 
-## ⚙️ Passo 1 — Clonar o Repositório
+# ⚙️ Instalação do Projeto
+
+## 📥 Opção 1 — Clonar via Git
 
 ```bash
-git clone [link-do-seu-repo]
-cd nome-do-projeto
+git clone https://github.com/pedr0coder/projeto-logistica.git
+cd projeto-logistica
 ```
 
 ---
 
-## 🔧 Passo 2 — Inicializar o Back-end
+## 📦 Opção 2 — Download Manual
 
-Abra o terminal na pasta do servidor:
+1. Acesse o repositório:
+
+👉 https://github.com/pedr0coder/projeto-logistica
+
+2. Clique no botão verde **Code**
+3. Selecione **Download ZIP**
+4. Extraia os arquivos do projeto
+5. Abra a pasta no VS Code
+
+---
+
+# 🔧 Inicializando o Back-end
+
+Abra um terminal na pasta do servidor:
 
 ```bash
 cd backend
 dotnet run
 ```
 
-A API será iniciada localmente através do endereço:
+A API será iniciada localmente em:
 
 👉 `http://localhost:5000`
 
 ---
 
-## ⚡ Passo 3 — Inicializar o Front-end
+# ⚡ Inicializando o Front-end
 
-Abra um novo terminal paralelo:
+Abra um segundo terminal paralelo:
 
 ```bash
 cd frontend
@@ -133,7 +161,7 @@ npm install
 npm run dev
 ```
 
-A interface estará disponível em:
+A interface ficará disponível em:
 
 👉 `http://localhost:5173`
 
@@ -156,23 +184,12 @@ A interface estará disponível em:
 # 📈 Objetivos do Projeto
 
 Este sistema foi desenvolvido com foco em:
+
 - Organização operacional de frotas
 - Monitoramento eficiente de viagens
 - Redução de falhas operacionais
 - Rastreabilidade de eventos críticos
 - Facilidade de manutenção e expansão futura
-
----
-
-# 🧠 Tecnologias Utilizadas
-
-| Camada | Tecnologias |
-| :--- | :--- |
-| Front-end | React • TypeScript • Material UI |
-| Back-end | C# • .NET 8 • Entity Framework |
-| Banco de Dados | SQLite |
-| Comunicação | API RESTful |
-| Build Tool | Vite |
 
 ---
 
@@ -189,6 +206,7 @@ O projeto segue uma arquitetura moderna baseada em separação entre cliente e s
 
 ---
 
-# 👨‍💻 Autor
+
+# 👨‍💻 Pedro
 
 Desenvolvido com foco em engenharia de software, experiência operacional e escalabilidade de sistemas logísticos.
