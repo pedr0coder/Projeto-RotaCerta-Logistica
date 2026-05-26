@@ -1,0 +1,13 @@
+# Pastas de dependências e builds
+node_modules/
+bin/
+obj/
+dist/
+build/
+
+# Pastas de ambiente e logs
+.env
+*.db
+.vs/
+.vscode/
+logs/
