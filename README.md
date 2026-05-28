@@ -141,6 +141,7 @@ cd projeto-logistica
 Abra um terminal na pasta do servidor:
 
 ```bash
+cd Projeto-RotaCerta-Logistica-main
 cd backend
 dotnet run
 ```
@@ -156,6 +157,7 @@ A API será iniciada localmente em:
 Abra um segundo terminal paralelo:
 
 ```bash
+cd Projeto-RotaCerta-Logistica-main
 cd frontend
 npm install
 npm run dev
